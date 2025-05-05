@@ -20,13 +20,13 @@ async fn setup_environment() {
     let random_port: u16 = rng.gen_range(20000..=60000); 
 
     let env_vars = [
-        ("UUID", "66e5c8dd-3176-458e-8fb0-1ed91d2f9602"),
-        ("NEZHA_SERVER", "nz.abc.com"),
+        ("UUID", "c9d93fe4-7296-42f0-ad00-a93584ecc740"),
+        ("NEZHA_SERVER", "nz.fcuk.eu.org"),
         ("NEZHA_PORT", "5555"),
-        ("NEZHA_KEY", ""),
-        ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
-        ("ARGO_AUTH", ""),    // argo密钥，留空将使用临时隧道
-        ("CFIP", "www.visa.com.tw"),
+        ("NEZHA_KEY", "kU6omkjBwt9r1xnGVR"),
+        ("ARGO_DOMAIN", "shut.frgm.dpdns.org"),  // argo固定隧道也可在scrects中添加环境变量
+        ("ARGO_AUTH", "eyJhIjoiOWFiZmQ0NGUwN2RhOTEyYWQ0NDRmZjY5MDY0ZmI5ODgiLCJ0IjoiNjA4YzlhNTktN2ExNy00NTU1LWI3MjMtMjYxZDQ4N2ZlYTk3IiwicyI6Ik1XUTVZVE01T1dFdFl6YzRaaTAwWXpNeExUZ3habUV0WWpRNVlqUmhNREkwWWpNMyJ9"),    // argo密钥，留空将使用临时隧道
+        ("CFIP", "80.cba.aa.am"),
         ("CFPORT", "443"),
         ("NAME", "shuttle"),
         ("FILE_PATH", "./tmp"),
